@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Add & Multiply App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Add & Multiply</h1>
+
+    <p class="sub">
+      It was too easy to make this dad. My names daniel louis and this was a custom request by my dad
+    </p>
+
+    <div class="grid">
+      <label>
+        Number 1
+        <input id="num1" type="number" inputmode="decimal" placeholder="e.g. 12.5" />
+      </label>
+
+      <label>
+        Number 2
+        <input id="num2" type="number" inputmode="decimal" placeholder="e.g. 3" />
+      </label>
+
+      <label>
+        Result
+        <input id="result" type="text" readonly placeholder="Result shows here" />
+      </label>
+    </div>
+
+    <div class="row">
+      <button id="addBtn">Add</button>
+      <button id="mulBtn" class="secondary">Multiply</button>
+      <button id="clearBtn" class="ghost">Clear</button>
+    </div>
+
+    <p id="msg" class="msg" aria-live="polite"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
